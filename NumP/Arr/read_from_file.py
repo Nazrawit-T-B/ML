@@ -2,7 +2,7 @@
 import numpy as np 
 
 try:
-    data=np.loadtxt('NumP\data.csv',delimiter=",",skiprows=1)
+    data=np.loadtxt('NumP\Arr\data.csv',delimiter=",",skiprows=1)
     print("Data loaded from data.csv: ")
     print(data)
 except IOError:
